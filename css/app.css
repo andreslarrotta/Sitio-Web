@@ -1,0 +1,355 @@
+@font-face {
+    font-family: "Nexa";
+    
+    src: url("fonts/Nexa/Nexa Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Nexa_Bold";
+    src: url("fonts/Nexa/Nexa Bold.otf")format("opentype");
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Nexa';
+}
+body {
+    font-family: 'Nexa';
+    margin: 0;
+    background: white;
+}
+nav .top-bar{
+    background-color: transparent;
+}
+.menu-text img {
+    width: 125px;
+    margin: 10px;
+}
+#home {
+    background: url(../img/Backgroundhome.jpg);
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 700px;
+}
+#imghome {
+    text-align: center;
+}
+#imghome img {
+    width: 600px;
+}
+#perfil {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 30px;
+    background: url(../img/Backgroundperfil.jpg);
+    background-size: 100%;
+    height: 700px;
+}
+.textos_home {
+    margin-top: 100px;
+}
+.textos_home h1 {
+    font-family: 'Nexa_Bold';
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.textos_home h2 {
+    font-family: 'Nexa';
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 12px;
+}
+.textos_home a{
+  color: black;
+}
+.textos_home a:hover{
+  color: black;
+  text-decoration: underline;
+}
+.textos_home ul li {
+    font-size: inherit;
+    font-size: 0.8rem;
+    list-style: none;
+}
+.flecha{
+  text-align: center;
+}
+.flecha img{
+  width: 30px;
+}
+.light{
+  color: white;
+}
+.textos{
+  text-align: center;
+}
+.textos h1 {
+    font-family: 'Nexa_Bold';
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.textos h2{
+    font-size: 1.3rem;
+}
+.textos p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.icons_skills {
+  text-align: center;
+}
+.icons_skills .fa{
+    font-size: 2rem;
+    text-align: center;
+}
+.icons_skills h2 {
+    font-family: 'Nexa_Bold';
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    color: #767676;
+    text-align: center;
+}
+.counter {
+    font-family: 'Nexa_Bold';
+    font-size: 2rem;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 15px;
+}
+.button {
+    background: black;
+    margin-top: 30px;
+    border: 1px solid white;
+    margin-bottom: 60px;
+    width: 100%;
+}
+.button:hover {
+    background: white;
+    margin-top: 30px;
+    color: black;
+    border: 1px solid black;
+}
+#imagecolor {
+    width: 100%;
+    height: 300px;
+    background: url(../img/Backgroundcolor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#imagecolor .text {
+    font-family: 'Nexa_Bold';
+    color: white;
+    font-size: 1.5rem;
+    z-index: 1;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 112px;
+    left: 0;
+}
+#imagecolor .filter {
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 219, 3, 0.5);
+    position: absolute;
+    top: 0;
+}
+#portafolio {
+    background: url(../img/Backgroundportafolio.jpg);
+    width: 100%;
+    padding-bottom: 50px;
+}
+.proyecto {
+    text-align: center;
+    transition: all 0.4s;
+    height: 250px;
+}
+.proyecto img{
+    width: 60px;
+    margin: 15px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.proyecto:hover{
+  background: white;
+}
+.proyecto:hover .textos{
+  color: black;
+}
+#art {
+    width: 100%;
+    height: auto;
+    background: url(../img/Backgroundart.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+#formulario_contacto{
+      margin: 61px;
+}
+/*inicio - footer*/
+.full-width {
+  max-width: 1400px;
+}
+.footer {
+    background-color: #0a0a0a;
+    position: relative;
+    padding: 2rem 4rem;
+    text-align: center;
+    color: #fff;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+/*fin - footer*/
+@media only screen and (max-width: 650px) {
+}
+
+@media screen and (max-width: 769px) {
+    #home {
+    background: url(../img/Backgroundhome.jpg);
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 700px;
+}
+#perfil {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 30px;
+    background: white;
+    background-position: 273px;
+    height: 700px;
+}
+#portafolio {
+    background: black;
+    width: 100%;
+    height: 700px;
+}
+}
+@media screen and (max-width: 640px) {
+ .menu-text img {
+    width: 60px;
+    margin: 0 auto;
+}
+#home {
+    background: white;
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 700px;
+}
+.textos_home {
+    margin-top: 0;
+    text-align: center;
+}
+.textos_home ul {
+    margin-left: 0;
+    list-style-type: disc;
+}
+#perfil {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 30px;
+    background: white;
+    background-position: 273px;
+    height: auto;
+}
+#imagecolor .text {
+    font-family: 'Nexa_Bold';
+    color: white;
+    font-size: 1.3rem;
+    z-index: 1;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 85px;
+    left: 0;
+}
+#portafolio {
+    background: black;
+    width: 100%;
+    height: auto;
+}
+#art {
+    width: 100%;
+    height: auto;
+    background: #fedb03;
+    background-size: cover;
+    background-position: top right;
+}
+#formulario_contacto {
+    margin: 30px;
+}
+}
+@media screen and (max-width: 321px) {
+#home {
+    background: white;
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 500px;
+}
+#imagecolor .text {
+    font-family: 'Nexa_Bold';
+    color: white;
+    font-size: 1rem;
+    z-index: 1;
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding: 66px;
+    left: 0;
+}
+#art {
+    width: 100%;
+    height: auto;
+    background: #fedb03;
+    background-size: cover;
+    background-position: top right;
+}
+}

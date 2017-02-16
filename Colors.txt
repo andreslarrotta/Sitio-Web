@@ -1,0 +1,4 @@
+#252839 - fondo
+#677077 - complemento
+#b5b5b7 - fuentes
+#f2b632 - diseño
