@@ -12,18 +12,19 @@ $body_message = '
 	<table width="650px" height="auto" border="0" cellspacing="0" cellpadding="0" align="center">
 		<tr>
 		  <td>
-		    <img src="http://andreslarrotta.com/img/mail.jpg" width="400" alt="">
+		    <img src="http://andreslarrotta.com/img/mail.jpg" width="400" alt="andres larrotta">
 		  </td>
 		</tr>
 		<tr>
 			<td style="padding: 10px 30px; font-size: 2rem; font-family: "Nexa_Bold"; color: black">
 			    <p>
-			    	<span>Hola, <b>'.$field_name.' </b>se ha contactado contigo desde <b>www.andreslarrotta.com</b><br>
-			    	<hr>
+			    	<span>Se han contactado desde la pagina andreslarrotta.com con el asunto:<br>
+			    	<b>'.$field_name.'</b><br>
 			    	<span>su mensaje ha sido:<br><br>
 			    		'.$field_message.'</span><br><br>
 			    	<span>puedes contestarle a este correo electrónico:<br>
-			    		<b>'.$field_email.'</b></span><br>
+			    	<b>'.$field_email.'</b></span><br>
+			    	<hr>
 				</p>
 			</td>
 		</tr>
