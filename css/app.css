@@ -175,6 +175,8 @@ nav .top-bar{
     text-align: center;
     transition: all 0.4s;
     height: 250px;
+    width: 550px;
+    margin: 0 auto;
 }
 .proyecto img{
     width: 60px;
@@ -184,6 +186,7 @@ nav .top-bar{
 }
 .proyecto:hover{
   background: white;
+      width: 550px;
 }
 .proyecto:hover .textos{
   color: black;
