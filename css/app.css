@@ -15,20 +15,43 @@ body {
     margin: 0;
     background: white;
 }
-nav .top-bar{
-    background-color: transparent;
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 9;
 }
-.menu-text img {
-    width: 125px;
-    margin: 10px;
+.menu > li > a {
+    font-family: 'Nexa';
+    display: block;
+    padding: 17px 17px 34px 15px;
+    line-height: 1;
+    color: black;
+}
+.menu img {
+    width: 41px;
+}
+.contenido_home {
+    height: 600px;
+    width: 100%;
+    padding-top: 300px;
+    position: absolute;
+    z-index: 3;
+}
+#logo_home {
+    background: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    box-shadow: grey 0 0 6px;
 }
 #home {
     background: url(../img/Backgroundhome.jpg);
     background-size: 100%;
     position: relative;
-    z-index: 2;
     width: 100%;
-    height: auto;
 }
 #imghome {
     text-align: center;
@@ -36,16 +59,31 @@ nav .top-bar{
 #imghome img {
     width: 500px;
 }
+#video_background {
+    /* position: absolute; */
+    /* top: -87px; */
+    /* margin: 0 auto; */
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+}
+.videohome {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 #perfil {
     position: relative;
     z-index: 2;
     width: 100%;
     padding: 30px;
-    background: url(../img/Backgroundperfil.jpg);
+    background: white;
     background-size: 100%;
     height: 700px;
 }
 .textos_home {
+    color: white;
     margin-top: 100px;
 }
 .textos_home h1 {
@@ -62,7 +100,7 @@ nav .top-bar{
     padding: 12px;
 }
 .textos_home a{
-  color: black;
+  color: white;
 }
 .textos_home a:hover{
   color: black;
@@ -73,8 +111,11 @@ nav .top-bar{
     font-size: 0.8rem;
     list-style: none;
 }
-.flecha{
-  text-align: center;
+.flecha {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 72px;
 }
 .flecha img{
   width: 30px;
@@ -96,34 +137,38 @@ nav .top-bar{
 .textos h2{
     font-size: 1.3rem;
 }
-.textos p{
+.textos p {
     width: 80%;
     margin: 0 auto;
-    font-size: 0.8rem;
     text-align: center;
     padding-bottom: 50px;
 }
 .icons_skills {
-  text-align: center;
+    text-align: left;
 }
-.icons_skills .fa{
-    font-size: 2rem;
+.icons_skills .fa {
+    font-size: 1.5rem;
     text-align: center;
+    display: inline-block;
+    float: left;
 }
 .icons_skills h2 {
     font-family: 'Nexa_Bold';
     text-transform: uppercase;
     font-size: 0.7rem;
     margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 16px;
     color: #767676;
-    text-align: center;
+    text-align: left;
+    float: left;
 }
-.counter {
-    font-family: 'Nexa_Bold';
-    font-size: 2rem;
-    vertical-align: middle;
-    text-align: center;
-    margin-top: 15px;
+.icons_skills p {
+    float: left;
+    font-size: 0.8rem;
+    padding-left: 40px;
+    text-indent: 31px;
+    letter-spacing: 1px;
 }
 .button {
     background: black;
@@ -170,12 +215,12 @@ nav .top-bar{
     background: url(../img/Backgroundportafolio.jpg);
     width: 100%;
     padding-bottom: 50px;
+    background-size: 100%;
 }
 .proyecto {
     text-align: center;
     transition: all 0.4s;
     height: 250px;
-    width: 550px;
     margin: 0 auto;
 }
 .proyecto img{
@@ -186,7 +231,6 @@ nav .top-bar{
 }
 .proyecto:hover{
   background: white;
-      width: 550px;
 }
 .proyecto:hover .textos{
   color: black;

@@ -2499,9 +2499,10 @@ select {
   width: 400px; }
 
 .dropdown.menu > li.opens-left > .is-dropdown-submenu {
-  top: 100%;
-  right: 0;
-  left: auto; }
+    top: 116%;
+    right: 0;
+    left: auto;
+}
 
 .dropdown.menu > li.opens-right > .is-dropdown-submenu {
   top: 100%;
