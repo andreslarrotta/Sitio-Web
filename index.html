@@ -10,7 +10,8 @@
     <meta name="language" content="es"/>
     <title>Andres Larrotta</title>
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/social/social.css">
     <link rel="icon" href="img/icon.png">
@@ -68,8 +69,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
       <div class="videohome">
-        <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" muted/>
-        <source src="videos/andres_larrotta.mp4" type="video/mp4" />
+        <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" muted poster=""/>
+          <source src="videos/andres_larrotta.webm" type="video/webm" />
+          <source src="videos/andres_larrotta.ogv" type="video/ogv">
+          <source src="videos/andres_larrotta.mp4" type="video/mp4" />
         </video/>
       </div>
     </section>
@@ -118,9 +121,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 	  </div>
     <hr>
-    <div class="flecha">
-          <img src="img/Flecha.png" alt="logo flecha">
-       </div>
   </div>
 </section>
 <section id="imagecolor">
@@ -190,36 +190,81 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </section>
+<section id="innovacion">
+  <div class="row">
+  <div class="image">
+    <img src="img/innovacion/titulo.png" alt="innocacion">
+    <hr>
+  </div>
+    <div class="textos_pilares">
+    <h2>Como?</h2>
+    <p>Los nuevos productos son indispensables para el crecimiento y mucho más en el mundo digital, por eso diferenciar en el mundo digital es un valor agregado.</p>
+    <ul>
+      <li>Generando ideas</li>
+      <li>Diseñando el concepto</li>
+      <li>Desarrollando prototipos</li>
+    </ul>
+    </div>
+    <div class="small-12 medium-12 large-12 columns">
+            <div class="flecha">
+            <span class="fa fa-caret-down" aria-hidden="true"></span>
+            </div>
+          </div>
+  </div>
+</section>
+<section id="diseno">
+  <div class="row">
+  <div class="image light">
+    <img src="img/diseno/titulo.png" alt="diseño">
+    <hr>
+  </div>
+    <div class="textos_pilares light">
+    <h2>Porque?</h2>
+    <p>Todo entra por los ojos, es inevitable no ponerles atención a empresas cuyo diseño es original</p>
+    <ul>
+      <li>Diseño de logos</li>
+      <li>Imagen corporativa</li>
+      <li>Estandarizar procesos</li>
+      <li>Monitorear protocolos</li>
+    </ul>
+    </div>
+    <div class="small-12 medium-12 large-12 columns">
+            <div class="flecha">
+            <span class="fa fa-caret-down" aria-hidden="true"></span>
+            </div>
+          </div>
+  </div>
+</section>
 <section id="art">
     <div class="row">
-    <div class="small-12 medium-6 large-6 columns">
-    <div id="formulario_contacto">
-    <form action="contact.php" method="post">
-    <div class="row">
-    <div class="medium-12 columns">
-    <label>Correo electrónico
-    <input type="email" name="cf_email" required placeholder="example@correo.com">
-    </label>
-    </div>
-    <div class="medium-12 columns">
-    <label>Asunto
-    <input type="text" name="cf_name" required placeholder="Asunto">
-    </label>
-    </div>
-    <div class="medium-12 columns">
-    <label>
-    Cual es tu mensaje?
-    <textarea name="cf_message" required type="text"  placeholder=""></textarea>
-    </label>
-    </div>
-    <div class="small-12 columns">
-    <input class="button" type="submit" name ="submit" value="Enviar" />
-    </div>
-    </div>
-    </form>
-    </div>
-    </div>
-    <div class="small-12 medium-6 large-6 columns"></div>
+      <div class="small-12 medium-6 large-6 columns">
+      <div id="formulario_contacto">
+      <form action="contact.php" method="post">
+      <div class="row">
+      <div class="medium-12 columns">
+      <label>Correo electrónico
+      <input type="email" name="cf_email" required placeholder="">
+      </label>
+      </div>
+      <div class="medium-12 columns">
+      <label>Asunto
+      <input type="text" name="cf_name" required placeholder="">
+      </label>
+      </div>
+      <div class="medium-12 columns">
+      <label>
+      Cual es tu mensaje?
+      <textarea name="cf_message" required type="text"  placeholder=""></textarea>
+      </label>
+      </div>
+      <div class="small-12 columns">
+      <input class="button" type="submit" name ="submit" value="Enviar" />
+      </div>
+      </div>
+      </form>
+      </div>
+      </div>
+      <div class="small-12 medium-6 large-6 columns"></div>
     </div>
 </section>
 <!-- Footer -->
@@ -238,7 +283,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<a href="mailto:andreslarrottapino911@gmail.com"><span class="flaticon-email"></span></a>
 		</div>
     </div>
-    </div>
+  </div>
 </footer>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/vendor/what-input.js"></script>

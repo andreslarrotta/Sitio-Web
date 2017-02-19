@@ -1,0 +1,25 @@
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 9;
+}
+.menu > li > a {
+    font-family: 'Nexa';
+    display: block;
+    padding: 17px 17px 34px 15px;
+    line-height: 1;
+    color: black;
+}
+.menu img {
+    width: 41px;
+}
+#logo_home {
+    background: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    box-shadow: grey 0 0 6px;
+}
