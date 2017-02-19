@@ -98,6 +98,9 @@ body {
 .light{
   color: white;
 }
+.black{
+    color: black;
+}
 .textos{
   text-align: center;
 }
@@ -218,6 +221,13 @@ body {
 #diseno{
     width: 100%;
     background: url(../img/diseno/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#aventura{
+    width: 100%;
+    height: 1000px;
+    background: url(../img/aventura/background.jpg);
     background-size: cover;
     background-position: center;
 }
