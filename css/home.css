@@ -226,8 +226,19 @@ body {
 }
 #aventura{
     width: 100%;
-    height: 1000px;
     background: url(../img/aventura/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#programacion{
+    width: 100%;
+    background: url(../img/programacion/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#creatividad{
+    width: 100%;
+    background: black;
     background-size: cover;
     background-position: center;
 }
