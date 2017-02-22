@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../css/foundation.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/portafolio.css">
-    <link rel="stylesheet" href="../css/jquery.gridder.min.css">
     <link rel="stylesheet" href="../css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="../css/fonts/social/social.css">
     <link rel="icon" href="../img/icon.png">
@@ -43,8 +42,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="row">
       <div class="menu-centered">
         <ul class="menu">
-          <li><a href="#perfil" id="perfilmenu">Servicios</a></li>
-          <li><a href="#portafolio" id="portafoliomenu">Portafolio</a></li>
+          <li><a href="../index.html#perfil" id="perfilmenu">Servicios</a></li>
+          <li><a href="../index.html#portafolio" id="portafoliomenu">Portafolio</a></li>
           <li id="logo_home"><a href="../index.html"><img src="../img/andres_larrotta_logo.png" alt="logo andres larrota"></a></li>
           <li><a href="#">Quien soy</a></li>
           <li><a href="#art" id="contactomenu">Contacto</a></li>
@@ -62,44 +61,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quo veritatis ipsa fuga omnis aliquid et inventore odio, qui maxime totam debitis cum officiis, alias. Blanditiis, necessitatibus. Veniam, culpa facilis!</p>
   </div>
   <div class="small-12 medium-6 large-6 columns">
-    <img src="" alt="">
+    <img src="../img/portafolio/balloons/Balloons.png" alt="balloons">
   </div>
 </div>
 </section>
 <section class="galeria">
-  
-            <div class="row">
-              <ul class="gridder">
-                <li class="gridder-list" data-griddercontent="#gridder-content-1">
-                    <img src="http://placehold.it/200x200&text=Item 1" class="img-responsive" />
-                </li><!--
-                --><li class="gridder-list" data-griddercontent="#gridder-content-2">
-                    <img src="http://placehold.it/200x200&text=Item 2" class="img-responsive" />
-                </li>
-            </ul> 
-            </div>
-            <div id="gridder-content-1" class="gridder-content">
-                <div class="row">
-                    <div class="small-12 medium-6 large-6 columns">
-                        <img src="http://placehold.it/600x600" class="img-responsive" />
-                    </div>
-                    <div class="small-12 medium-6 large-6 columns">
-                        <h2>Item 1</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                    </div>
-                </div>
-            </div>
-            <div id="gridder-content-2" class="gridder-content">
-                <div class="row">
-                    <div class="small-12 medium-6 large-6 columns">
-                        <img src="http://placehold.it/600x600" class="img-responsive" />
-                    </div>
-                    <div class="small-12 medium-6 large-6 columns">
-                        <h2>Item 2</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex augue, hendrerit sed gravida ut, mattis vel tortor. Duis hendrerit sagittis bibendum. Fusce massa risus, hendrerit et est vitae, convallis accumsan ipsum. Integer vitae erat mattis, ornare tortor nec, luctus turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus fermentum consectetur. Nulla vestibulum, diam ut finibus dictum, justo felis blandit mi, sed rhoncus tortor augue vitae orci. Fusce semper eu ante ut faucibus.</p>
-                    </div>
-                </div>
-            </div>
 </section>
 <!-- Footer -->
 <footer class="footer">
@@ -123,31 +89,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="../js/vendor/what-input.js"></script>
 <script src="../js/vendor/foundation.js"></script>
 <script src="../js/app.js"></script>
- <script src="../js/jquery.gridder.js"></script>
-        <script>
-            jQuery(document).ready(function ($) {
-
-                // Call Gridder
-                $(".gridder").gridderExpander({
-                    scrollOffset: 60,
-                    scrollTo: "panel", // "panel" or "listitem"
-                    animationSpeed: 400,
-                    animationEasing: "easeInOutExpo",
-                    onStart: function () {
-                        console.log("Gridder Inititialized");
-                    },
-                    onExpanded: function (object) {
-                        console.log("Gridder Expanded");
-                        $(".carousel").carousel();
-                    },
-                    onChanged: function (object) {
-                        console.log("Gridder Changed");
-                    },
-                    onClosed: function () {
-                        console.log("Gridder Closed");
-                    }
-                });
-            });
-        </script>
 </body>
 </html>

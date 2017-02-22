@@ -10,14 +10,26 @@
 	width: 100%;
 	height: 400px;
 }
-#balloons{
-	background: red;
+#balloons {
+    background: url(../img/portafolio/balloons/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.acerca{
+    padding: 50px;
 }
 .acerca h1{
 	 font-family: 'Nexa_Bold';
 }
 .acerca p{
 	 font-family: 'Nexa';
+}
+.galeria {
+    background: url(../img/portafolio/balloons/backgroundipad.jpg);
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    height: 700px;
 }
 .gridder-expanded-content{
 	background: red;
