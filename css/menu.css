@@ -8,7 +8,6 @@ header {
 .menu > li > a {
     font-family: 'Nexa';
     display: block;
-    padding: 17px 17px 34px 15px;
     line-height: 1;
     color: black;
 }
@@ -23,3 +22,45 @@ header {
     /* border: 1px solid black; */
     box-shadow: grey 0 0 6px;
 }
+
+/*inicio - footer*/
+.full-width {
+  max-width: 1400px;
+}
+.footer {
+    background-color: #0a0a0a;
+    position: relative;
+    padding: 2rem 4rem;
+    text-align: center;
+    color: #fff;
+}
+.footer i {
+  font-size: 100px;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+/*fin - footer*/

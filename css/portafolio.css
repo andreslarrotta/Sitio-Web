@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Nexa";
+    src: url("../css/fonts/Nexa/Nexa Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "Nexa_Bold";
+    src: url("../css/fonts/Nexa/Nexa Bold.otf")format("opentype");
+}
+.portada{
+	width: 100%;
+	height: 400px;
+}
+#balloons{
+	background: red;
+}
+.acerca h1{
+	 font-family: 'Nexa_Bold';
+}
+.acerca p{
+	 font-family: 'Nexa';
+}
+.gridder-expanded-content{
+	background: red;
+}
