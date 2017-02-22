@@ -188,29 +188,11 @@ body {
     top: 0;
 }
 #portafolio {
-    background: url(../img/Backgroundportafolio.jpg);
-    width: 100%;
+    background:black;
+    width: 100%;v
     padding-bottom: 50px;
     background-size: 100%;
     background-position: center;
-}
-.proyecto {
-    text-align: center;
-    transition: all 0.4s;
-    height: 250px;
-    margin: 0 auto;
-}
-.proyecto img{
-    width: 60px;
-    margin: 15px;
-    border-radius: 50%;
-    border: 3px solid white;
-}
-.proyecto:hover{
-  background: white;
-}
-.proyecto:hover .textos{
-  color: black;
 }
 #innovacion{
     width: 100%;

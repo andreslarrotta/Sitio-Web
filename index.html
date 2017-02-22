@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/carrusel_home.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/social/social.css">
     <link rel="icon" href="img/icon.png">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/assets/owl.carousel.min.css'>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -138,49 +140,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          <h1>PORTAFOLIO</h1>
         </div>
     </div>
-    <div class="small-12 medium-6 large-6 columns">
-     <div class="proyecto">
-        <img src="img/portafolio/alcabama.jpg" alt="alcabama">
-            <div class="textos light">
-            <h2>Construcciones Alcabama</h2>
-             <p>ALCABAMA S.A. es una empresa dedicada a la promoción, gerencia, construcción y venta de proyectos inmobiliarios.</p>
+     <div class="small-12 medium-12 large-12 columns">
+        <div id="carrusel">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <a href="#"><div class="proyecto">
+                  <img src="img/portafolio/alcabama.jpg" alt="alcabama">
+                  <div class="textos light">
+                  <h2>Alcabama</h2>
+                   <!-- <p>ALCABAMA S.A. es una empresa dedicada a la promoción, gerencia, construcción y venta de proyectos inmobiliarios.</p> -->
+                  </div>
+              </div>
+              </a>
             </div>
+            <div class="item">
+              <div class="proyecto">
+                <img src="img/portafolio/balloons.jpg" alt="balloons">
+                    <div class="textos light">
+                    <h2>Balloons Colombia</h2>
+                    <!--  <p>Es una empresa de en donde encontraras todo para complementar tus fiestas.</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="item"><div class="proyecto">
+              <img src="img/portafolio/intexab.jpg" alt="intexab">
+                  <div class="textos light">
+                  <h2>Decoraciones intexab</h2>
+                  <!--  <p>Es una empresa dedicada a la industrial del diseño de continas enrollables inteligentes.</p> -->
+                  </div>
+              </div>
+              </div>
+            <div class="item"> <div class="proyecto">
+              <img src="img/portafolio/santamaria.jpg" alt="santamaria">
+                  <div class="textos light">
+                  <h2>Santa maria</h2>
+                  <!--  <p>Especialistas en Ortopedia y traumatologia, una empresa dedicada a ofrecer atención personalizada con alta calidad.</p> -->
+                  </div>
+              </div>
         </div>
-    </div>
-    <div class="small-12 medium-6 large-6 columns">
-     <div class="proyecto">
-        <img src="img/portafolio/balloons.jpg" alt="balloons">
-            <div class="textos light">
-            <h2>Balloons Colombia</h2>
-             <p>Es una empresa de en donde se encontrara mil y más maneras para complementar tus fiestas con dulces, bombas de helio , personajes y colores divertidos ubicada en el centro comercial santafe.</p>
-            </div>
+        <div class="item"><div class="proyecto">
+              <img src="img/portafolio/motosau.jpg" alt="motosau">
+                  <div class="textos light">
+                  <h2>Motos AU</h2>
+                   <!-- <p>Empresa de accesorios y repuestos para moto.</p> -->
+                  </div>
+              </div>
         </div>
-    </div>
-     <div class="small-12 medium-6 large-6 columns">
-      <div class="proyecto">
-        <img src="img/portafolio/intexab.jpg" alt="intexab">
-            <div class="textos light">
-            <h2>Decoraciones intexab</h2>
-             <p>Es una empresa dedicada a la industrial del diseño de continas enrollables inteligentes con una meta fija, darle estilo a cualquier ambiente, como tu hogar u oficina y brindar un aspecto moderno y agradable.</p>
-            </div>
         </div>
-    </div>
-     <div class="small-12 medium-6 large-6 columns">
-        <div class="proyecto">
-        <img src="img/portafolio/santamaria.jpg" alt="santamaria">
-            <div class="textos light">
-            <h2>Santa maria</h2>
-             <p>Especialistas en Ortopedia y traumatologia, una empresa dedicada a ofrecer atención personalizada con alta calidad.</p>
-            </div>
-        </div>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-        <div class="proyecto">
-        <img src="img/portafolio/motosau.jpg" alt="motosau">
-            <div class="textos light">
-            <h2>Motos AU</h2>
-             <p>Empresa de accesorios y repuestos para moto.</p>
-            </div>
         </div>
     </div>
     <div class="small-12 medium-12 large-12 columns">
@@ -260,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="programacion">
   <div class="row">
   <div class="image">
-    <img src="img/aventura/titulo.png" alt="programación">
+    <img src="img/programacion/titulo.png" alt="programación">
     <hr>
   </div>
     <div class="textos_pilares">
@@ -281,7 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section id="creatividad">
   <div class="row">
   <div class="image light">
-    <img src="img/diseno/titulo.png" alt="creatividad">
+    <img src="img/creatividad/titulo.png" alt="creatividad">
     <hr>
   </div>
     <div class="textos_pilares light">
@@ -350,5 +356,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/vendor/foundation.js"></script>
 <script src="js/app.js"></script>
 <script src="js/scrollPage.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/owl.carousel.min.js'></script>
+<script src="js/carrusel.js"></script>
 </body>
 </html>

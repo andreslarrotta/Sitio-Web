@@ -1,0 +1,58 @@
+#carrusel{
+	text-align: center;
+}
+#carrusel .item{
+	text-align: center;
+	background: none;
+} 
+#carrusel .proyecto {
+    text-align: center;
+    transition: all 0.4s;
+    margin: 0 auto;
+    padding: 10px;
+    opacity: 0.7;
+}
+#carrusel .proyecto img {
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+#carrusel .textos p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+ #carrusel .proyecto:hover{
+  opacity: 1;
+  border: 1px solid white;
+}
+ #carrusel .proyecto:hover .textos{
+  color: white;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: white;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
