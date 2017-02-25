@@ -1,4 +1,5 @@
 header {
+  font-family: "Nexa";
     background-color: white;
     position: fixed;
     width: 100%;
@@ -22,15 +23,19 @@ header {
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    /* border: 1px solid black; */
     box-shadow: grey 0 0 6px;
 }
-
+#logo_home a {
+    display: block;
+     padding:0; 
+    line-height: 1;
+}
 /*inicio - footer*/
 .full-width {
   max-width: 1400px;
 }
 .footer {
+  font-family: "Nexa";
     background-color: #0a0a0a;
     position: relative;
     padding: 2rem 4rem;
@@ -56,10 +61,15 @@ header {
 }
 
 @media screen and (max-width: 640px) {
-  .menu-centered {
+.menu-centered {
     text-align: center;
     margin-left: -6px;
     width: 100%;
+}
+.menu > li > a {
+    color: black;
+    padding-top: 0;
+    padding: 0;
 }
 }
 @media screen and (max-width: 500px) {

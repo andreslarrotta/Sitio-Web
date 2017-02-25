@@ -23,7 +23,7 @@ body {
     z-index: 3;
 }
 #home {
-    background: url(../img/Backgroundhome.jpg);
+    background:white;
     background-size: 100%;
     position: relative;
     width: 100%;
