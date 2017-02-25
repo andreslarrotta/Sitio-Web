@@ -5,11 +5,14 @@ header {
     height: 50px;
     z-index: 9;
 }
-.menu > li > a {
-    font-family: 'Nexa';
-    display: block;
-    line-height: 1;
+.menu > li > a{
     color: black;
+    padding-top: 0;
+}
+.menu > li > a:hover{
+    color: black;
+    padding-top: 0;
+    text-decoration:underline;   
 }
 .menu img {
     width: 41px;
@@ -52,6 +55,18 @@ header {
   color: #fff;
 }
 
+@media screen and (max-width: 640px) {
+  .menu-centered {
+    text-align: center;
+    margin-left: -6px;
+    width: 100%;
+}
+}
+@media screen and (max-width: 500px) {
+.menu .itemsmenu{
+    display: none;
+}
+}
 @media only screen and (min-width: 40.063em) {
   .footer .columns:nth-child(n+2) {
     border-left: 1px solid #b3b3b3;

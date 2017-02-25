@@ -10,7 +10,6 @@
     transition: all 0.4s;
     margin: 0 auto;
     padding: 10px;
-    opacity: 0.7;
 }
 #carrusel .proyecto img {
     width: 60px;
@@ -26,7 +25,6 @@
     padding-bottom: 50px;
 }
  #carrusel .proyecto:hover{
-  opacity: 1;
   border: 1px solid white;
 }
  #carrusel .proyecto:hover .textos{

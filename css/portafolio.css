@@ -12,8 +12,7 @@
 }
 #balloons {
     background: url(../img/portafolio/balloons/background.jpg);
-    background-size: 100%;
-    background-attachment: fixed;
+    
 }
 .acerca{
     padding: 50px;

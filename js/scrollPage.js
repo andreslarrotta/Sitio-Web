@@ -15,4 +15,9 @@ $(document).ready(function() {
 		    scrollTop: $("#art").offset().top
 		}, 2000);
 	});
+	$("#soy").click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#innovacion").offset().top
+		}, 2000);
+	});
 });
