@@ -16,6 +16,30 @@
     background-position: center;
     
 }
+#alcabama {
+    background: url(../img/portafolio/alcabama/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#intexab {
+    background: url(../img/portafolio/intexab/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#santamaria {
+    background: url(../img/portafolio/santamaria/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#motosau {
+    background: url(../img/portafolio/motosau/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
 .acerca{
     padding: 50px;
 }
