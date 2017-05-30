@@ -45,19 +45,22 @@ body {
 }
 .videohome {
     width: 100%;
-    height: 100%;
+    height: 800px;
+    background: url(../img/bg_home.jpg);
+    background-size: cover;
+    background-position: left;
     position: relative;
 }
 #perfil {
     position: relative;
     width: 100%;
     padding: 30px;
-    background: white;
+    background: black;
     background-size: 100%;
-    height: 700px;
+    color: white;
 }
 .textos_home {
-    color: white;
+    color: black;
     margin-top: 100px;
 }
 .textos_home h1 {
@@ -73,6 +76,20 @@ body {
     display: inline-block;
     padding: 12px;
 }
+.textos_home p span {
+    font-family: 'Nexa_Bold';
+    font-size: 3rem;
+}
+.textos_home hr {
+    clear: both;
+    max-width: 75rem;
+    height: 0;
+    margin: 1.25rem auto;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000000;
+    border-left: 0;
+}
 .textos_home a{
   color: white;
 }
@@ -86,7 +103,7 @@ body {
     list-style: none;
 }
 .flecha {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 2rem;
     padding-top: 72px;
@@ -108,8 +125,7 @@ body {
     font-weight: bold;
     font-size: 1.3rem;
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .textos h2 {
     font-size: 1.3rem;
@@ -119,42 +135,8 @@ body {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 50px;
 }
-.icons_skills {
-    text-align: left;
-}
-.icons_skills .fa {
-    font-size: 1.5rem;
-    text-align: center;
-    display: inline-block;
-    float: left;
-    width: 100%;
-}
-.icons_skills h2 {
-    font-family: 'Nexa_Bold';
-    text-transform: uppercase;
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding-left: 16px;
-    color: #767676;
-    text-align: center;
-    float: left;
-    width: 100%;
-}
-.icons_skills p {
-    float: left;
-    font-size: 0.8rem;
-    padding-left: 40px;
-}
-.icons_skills ul {
-    margin-left: 1.25rem;
-    list-style-type: disc;
-    float: left;
-    width: 100%;
-    font-size: 0.9rem;
-}
+
 .button {
     background: black;
     margin-top: 30px;
@@ -168,71 +150,7 @@ body {
     color: black;
     border: 1px solid black;
 }
-#imagecolor {
-    width: 100%;
-    height: 300px;
-    background: url(../img/Backgroundcolor.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-}
-#imagecolor .text {
-    font-family: 'Nexa_Bold';
-    color: white;
-    font-size: 1.5rem;
-    z-index: 1;
-    position: absolute;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    padding: 112px;
-    left: 0;
-}
-#imagecolor .filter {
-    width: 100%;
-    height: 100%;
-    background: rgba(254, 219, 3, 0.5);
-    position: absolute;
-    top: 0;
-}
-#portafolio {
-    background: black;
-    width: 100%;
-    height: 460px;
-    background-size: 100%;
-    background-position: center;
-}
-#innovacion{
-    width: 100%;
-    background: url(../img/innovacion/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#diseno{
-    width: 100%;
-    background: url(../img/diseno/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#aventura{
-    width: 100%;
-    background: url(../img/aventura/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#programacion{
-    width: 100%;
-    background: url(../img/programacion/background.jpg);
-    background-size: cover;
-    background-position: center;
-}
-#creatividad{
-    width: 100%;
-    background: black;
-    background-size: cover;
-    background-position: center;
-}
+
 .image {
     text-align: center;
     margin-top: 100px;
@@ -250,172 +168,142 @@ body {
     border-bottom: 1px solid black;
     border-left: 0;
 }
-.textos_pilares {
-    text-align: left;
-    margin-top: 30px;
-    margin: 0 auto;
-    width: 50%;
+#titulo_projects{
+    padding: 30px;
 }
-#art {
+#titulo_projects p {
+    font-family: 'Nexa_Bold';
+    font-size: 3rem;
+    line-height: 45px;
+    color: #ffe700;
+    margin-top: 30px;
+}
+.project{
     width: 100%;
-    height: auto;
-    background: url(../img/Backgroundart.jpg);
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#cupcakespili{
+    background: url(../img/projects_recents/cupcakespili.jpg);
     background-size: cover;
-    background-position: top right;
+    background-position: center;
+    transition: all 0.4s;
+}
+#alcabama{
+    height: 400px;
+    background: url(../img/projects_recents/alcabama.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+#balloons{
+    height: 170px;
+    background: url(../img/projects_recents/balloons.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+#intexab{
+    height: 200px;
+    background: url(../img/projects_recents/intexab.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+#santamaria{
+    height: 200px;
+    background: url(../img/projects_recents/santamaria.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+#motosAU{
+    height: 200px;
+    background: url(../img/projects_recents/motosau.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s;
+}
+.texts {
+    z-index: 9;
+    position: absolute;
+    color: white;
+}
+.texts h1{
+    font-size: 2rem;
+}
+.texts h2{
+     font-size: 1.5rem;
+}
+.filter{
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 #formulario_contacto{
       margin: 61px;
 }
-@media screen and (max-width: 769px) {
-    #home {
-    background:white;
-    background-size: 100%;
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 700px;
-}
-#perfil {
-    position: relative;
-    width: 100%;
-    padding: 30px;
-    background: white;
-    background-position: 273px;
-    height: 700px;
-}
-#portafolio {
-    background: black;
-    width: 100%;
-    height: 700px;
-}
-}
-@media screen and (max-width: 640px) {
- .menu-text img {
-    width: 60px;
-    margin: 0 auto;
-}
-#home {
-    background: white;
-    background-size: 100%;
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 400px;
-}
+@media screen and (max-width: 700px) {
 .contenido_home {
-    background: black;
-    height: 399px;
+    height: 600px;
     width: 100%;
-    padding-top: 123px;
-    position: absolute;
     z-index: 3;
 }
-.videohome {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: none;
-}   
 .textos_home {
-    margin-top: 0;
-    text-align: center;
-}
-.textos_home ul {
-    margin-left: 0;
-    list-style-type: disc;
-}
-#perfil {
-    position: relative;
-    width: 100%;
-    padding: 0;
-    background: white;
-    background-position: 273px;
-    height: auto;
-}
-.icons_skills ul {
-    margin-left: 1.25rem;
-    list-style-type: disc;
-    float: left;
-    width: 80%;
-    font-size: 0.9rem;
+    color: black;
+    margin-top: 100px;
+    padding: 36px;
+    background: rgba(255, 255, 255, 0.61);
 }
 .textos p {
     width: 100%;
-    padding: 14px;
     margin: 0 auto;
-    text-align: left;
-    padding-bottom: 50px;
+    font-size: 1.5rem;
+    text-align: justify;
 }
-#imagecolor .text {
-    font-family: 'Nexa_Bold';
-    color: white;
-    font-size: 1.3rem;
-    z-index: 1;
-    position: absolute;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    padding: 85px;
-    left: 0;
-}
-#portafolio {
+.button {
     background: black;
-    width: 100%;
-    height: 400px;
-}
-#art {
-    width: 100%;
-    height: auto;
-    background: #fedb03;
-    background-size: cover;
-    background-position: top right;
-}
-.image {
-    text-align: center;
-    margin-top: 50px;
-    width: 100%;
-    padding: 17px;
-}
-.textos_pilares {
-    text-align: left;
     margin-top: 30px;
-    margin: 0 auto;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    margin-bottom: 0;
     width: 100%;
-    padding: 17px;
-}
-#formulario_contacto {
-    margin: 30px;
 }
 }
-@media screen and (max-width: 321px) {
-#home {
-    background: white;
-    background-size: 100%;
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    height: 500px;
+@media screen and (max-width: 450px) {
+.textos_home {
+    color: black;
+    margin-top: 35px;
+    padding: 36px;
+    background: rgba(255, 255, 255, 0.61);
 }
-#imagecolor .text {
+.textos_home p span {
     font-family: 'Nexa_Bold';
-    color: white;
+    font-size: 2rem;
+}
+.textos p {
+    width: 100%;
+    margin: 0 auto;
     font-size: 1rem;
-    z-index: 1;
-    position: absolute;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-    padding: 66px;
-    left: 0;
+    text-align: justify;
 }
-#art {
-    width: 100%;
-    height: auto;
-    background: #fedb03;
-    background-size: cover;
-    background-position: top right;
+#titulo_projects p {
+    font-family: 'Nexa_Bold';
+    font-size: 2rem;
+    line-height: 45px;
+    color: #ffe700;
+    margin-top: 30px;
 }
 }
+@media screen and (max-width: 769px) {
+}
+
 /*Animaciones css3*/
 .floating{
     animation-name: floating;

@@ -17,9 +17,9 @@ $(window).scroll(function(){
 	}
 	else{
 		if (flag) {
-			$("#logomenu").css({"margin-top": "150px", "width": "250px"});
-			$("header").css({"background-color": "transparent", "color": "white"});
-			$("header a").css({"color": "white"});
+			$("#logomenu").css({"margin-top": "100px", "width": "250px"});
+			$("header").css({"background-color": "transparent", "color": "black"});
+			$("header a").css({"color": "black"});
 			flag=false;
 		}
 

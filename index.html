@@ -14,11 +14,10 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/carrusel_home.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/fonts/social/social.css">
     <link rel="icon" href="img/icon.png">
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/assets/owl.carousel.min.css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/menu.js"></script>
     <script>
@@ -46,21 +45,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <header>
       <nav>
             <ul>
-              <li><a href="#perfil" id="perfilmenu" >Perfil</a></li>
-              <li><a href="#portafolio" id="portafoliomenu">Portafolio</a></li>
+              <li><a href="#perfil" id="perfilmenu" >Profile</a></li>
+              <li><a href="#portafolio" id="portafoliomenu">Portfolio</a></li>
             </ul>
-            <img id="logomenu" src="img/andres_larrotta_logo.png" alt="logo andres larrota">   
+            <img id="logomenu" src="img/andres_larrotta_logo.png" alt="andres larrotta">   
             <ul>
-              <li><a href="#innovacion" id="soy">Elementos</a></li>
-              <li><a href="#art" id="contactomenu">Contacto</a></li>
+              <li><a href="#innovacion" id="soy">About me</a></li>
+              <li><a href="#art" id="contactomenu">Contact</a></li>
+            </ul>
+      </nav>
+      <nav class="menu_responsive">
+            <ul>
+              <li> <img id="logomenu" src="img/andres_larrotta_logo.png" alt="andres larrotta">   </li>
+              <li><a href="#perfil" id="perfilmenu" >Profile</a></li>
+              <li><a href="#portafolio" id="portafoliomenu">Portfolio</a></li>
+              <li><a href="#innovacion" id="soy">About me</a></li>
+              <li><a href="#art" id="contactomenu">Contact</a></li>
             </ul>
       </nav>
     </header>
       <div class="contenido_home">
         <div class="row">
-          <div class="small-12 medium-2 large-2 columns"> 
+          <div class="small-12 medium-6 large-6 columns"><br></div>
+          <div class="small-12 medium-6 large-6 columns"> 
             <div class="textos_home">
-            <h1>Andres Larrotta</h1>
+            <p><span>Hi, I'm Andres and work as a Developer and Designer Web.</span></p>
             <hr>
             </div>
           </div>
@@ -72,293 +81,123 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
       <div class="videohome">
-        <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" muted poster=""/>
-          <source src="videos/andres_larrotta.webm" type="video/webm" />
-          <source src="videos/andres_larrotta.ogv" type="video/ogv">
-          <source src="videos/andres_larrotta.mp4" type="video/mp4" />
-        </video/>
+       
       </div>
     </section>
   <section id="perfil">
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
 	  	<div class="textos">
-         <h1>PERFIL</h1>
-         <p>Soy una persona creativa con un pensamiento integrador con la capacidad de combinar visualmente el concepto y el contexto de lo que realmente se necesita en el mercado.</p>
+         <h1>PROFILE</h1>
+         <p>I'm a creative person with a integrated thought, capacity to combine the concept like context that really need market, be leader in my team work is important to me because to able to finish any proyect.
+I'm a friendly person with facility in relationships, where the respect is important for the team.
+I'm Multimedia Engineer with knowledge in layout HTML5 , CSS3 , JAVASCRIPT and WEB DESIGN.</p>
 	  	</div>
-       <div class="small-12 medium-3 large-3 columns">
-        <div class="icons_skills">
-          <span class="fa fa-magic" aria-hidden="true"></span>
-          <h2>Sistemas Multimedia</h2>
-          <ul>
-            <li>Videos</li>
-            <li>Ilustración</li>
-            <li>Animación Motion Graphics</li>
-          </ul>
+        <div class="small-12 medium-4 large-4 columns">
+             <a href="mailto:andres@andreslarrotta.com" class="button">Email</a>
         </div>
-       </div>
-       <div class="small-12 medium-3 large-3 columns">
-         <div class="icons_skills">
-          <span class="fa fa-terminal" aria-hidden="true"></span>
-          <h2>Desarrollo Web</h2>
-          <ul>
-            <li>Html, Css3 y Javascript</li>
-            <li>Frameworks</li>
-            <li>Git</li>
-          </ul>
+         <div class="small-12 medium-4 large-4 columns">
+             <a href="https://www.linkedin.com/in/andres-felipe-larrotta-pino-97772849" target="_blanck" class="button">Linkedin</a>
         </div>
-      
-       </div>
-       <div class="small-12 medium-3 large-3 columns">
-        <div class="row">
-         <div class="icons_skills">
-          <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
-          <h2>Diseño Web</h2>
-          <ul>
-            <li>Photoshop</li>
-            <li>Ilustraitor</li>
-            <li>InDesign</li>
-          </ul>
-        </div>
-        </div>
-       </div>
-       <div class="small-12 medium-3 large-3 columns">
-        <div class="row">
-         <div class="icons_skills">
-          <span class="fa fa-mobile" aria-hidden="true"></span>
-          <h2>Diseño y Desarrollo Movíl</h2>
-          <ul>
-            <li>Aplicaciones Hibridas</li>
-            <li>PhoneGap</li>
-            <li>Android</li>
-          </ul>
-        </div>
-        </div>
-       </div>
-        <div class="small-10 medium-3 large-3 small-centered medium-centered large-centered columns">
-             <a href="#portafolio" class="button">Portafolio</a>
+         <div class="small-12 medium-4 large-4 columns">
+             <a href="https://twitter.com/pipelarrotta" class="button">Twitter</a>
         </div>
 	  </div>
     <hr>
   </div>
 </section>
-<section id="imagecolor">
-    <div class="row">
-    <div class="text">
-      <p>Todo es posible</p>
-    </div>
-    </div>
-  <div class="filter"></div>
-</section>
+
+<div class="row">
+  <section id="titulo_projects">
+    <p>MOST<br>RECENT<br>PROJECTS &<br>COLLABORATIONS</p>
+  </section>
+</div>
 <section id="portafolio">
   <div class="row">
     <div class="small-12 medium-12 large-12 columns">
-        <div class="textos light">
-         <h1>PORTAFOLIO</h1>
+      <a href="http://cupcakespili.com/" target="_blank">
+      <div id="cupcakespili" class="project">
+        <div class="texts">
+          <h1>Cupcakes Pili</h1>
+          <h2>Social Network - Website</h2>
+          <p>Coming soom</p>
         </div>
-    </div>
-     <div class="small-12 medium-12 large-12 columns">
-        <div id="carrusel">
-          <div class="owl-carousel owl-theme">
-            <div class="item">
-              <a href="portafolio/alcabama.html"><div class="proyecto">
-                  <img src="img/portafolio/alcabama.jpg" alt="alcabama">
-                  <div class="textos light">
-                  <h2>Alcabama</h2>
-                  <span class="fa fa-plus"></span>
-                  </div></a>
-              </div>
-            </div>
-            <div class="item">
-               <a href="portafolio/ballons.html"><div class="proyecto">
-                <img src="img/portafolio/balloons.jpg" alt="balloons">
-                    <div class="textos light">
-                    <h2>Balloons</h2>
-                    <span class="fa fa-plus"></span>
-                    </div>
-                </div></a>
-            </div>
-            <div class="item">
-              <a href="portafolio/intexab.html"><div class="proyecto">
-              <img src="img/portafolio/intexab.jpg" alt="intexab">
-                  <div class="textos light">
-                  <h2>Intexab</h2>
-                  <span class="fa fa-plus"></span>
-                  </div>
-              </div></a>
-              </div>
-            <div class="item">
-            <a href="portafolio/santamaria.html"><div class="proyecto">
-              <img src="img/portafolio/santamaria.jpg" alt="santamaria">
-                  <div class="textos light">
-                  <h2>Santamaria</h2>
-                  <span class="fa fa-plus"></span>
-                  </div>
-              </div></a>
-        </div>
-        <div class="item">
-        <a href="portafolio/motosau.html"><div class="proyecto">
-              <img src="img/portafolio/motosau.jpg" alt="motosau">
-                  <div class="textos light">
-                  <h2>Motos AU</h2>
-                  <span class="fa fa-plus"></span>
-                  </div>
-              </div></a>
-        </div>
-        </div>
-        </div>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-        <div class="textos light">
-            ///
-        </div>
-    </div>
-  </div>
-</section>
-<section id="innovacion">
-  <div class="row">
-  <div class="image">
-    <img src="img/innovacion/titulo.png" alt="innocacion">
-    <hr>
-  </div>
-    <div class="textos_pilares">
-    <h2>Como?</h2>
-    <p>Los nuevos productos son indispensables para el crecimiento y mucho más en el mundo digital, por eso diferenciar en el mundo digital es un valor agregado.</p>
-    <ul>
-      <li>Generando ideas</li>
-      <li>Diseñando el concepto</li>
-      <li>Desarrollando prototipos</li>
-    </ul>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-            <div class="flecha floating">
-            <span class="fa fa-caret-down" aria-hidden="true"></span>
-            </div>
-          </div>
-  </div>
-</section>
-<section id="diseno">
-  <div class="row">
-  <div class="image light">
-    <img src="img/diseno/titulo.png" alt="diseño">
-    <hr>
-  </div>
-    <div class="textos_pilares light">
-    <h2>Porque?</h2>
-    <p>Todo entra por los ojos, es inevitable no ponerles atención a empresas cuyo diseño es original</p>
-    <ul>
-      <li>Diseño de logos</li>
-      <li>Imagen corporativa</li>
-      <li>Estandarizar procesos</li>
-      <li>Monitorear protocolos</li>
-    </ul>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-      <div class="flecha floating">
-      <span class="fa fa-caret-down" aria-hidden="true"></span>
+        <!-- <div class="filter"></div> -->
       </div>
+      </a> 
     </div>
-  </div>
-</section>
-<section id="aventura">
-  <div class="row">
-  <div class="image">
-    <img src="img/aventura/titulo.png" alt="diseño">
-    <hr>
-  </div>
-    <div class="textos_pilares">
-    <h2>Cuando?</h2>
-    <p>Cada proyecto es un desafío, tomar riesgos y sobre todo estar enfocados en objetivos claros son las bases para superarlos</p>
-    <ul>
-      <li>Escuchar</li>
-      <li>Buscar las necesidades de los clientes</li>
-      <li>Solucionar problemas</li>
-    </ul>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-      <div class="flecha floating black">
-      <span class="fa fa-caret-down" aria-hidden="true"></span>
+    <div class="small-12 medium-6 large-6 columns">
+      <a href="http://alcabama.com/" target="_blank">
+      <div id="alcabama" class="project">
+        <div class="texts">
+          <h1>Inversiones Alcabama</h1>
+          <h2>Front-end develop</h2>
+          <p>Tap to see website</p>
+        </div>
+        <div class="filter"></div>
       </div>
+      </a> 
     </div>
-  </div>
-</section>
-<section id="programacion">
-  <div class="row">
-  <div class="image">
-    <img src="img/programacion/titulo.png" alt="programación">
-    <hr>
-  </div>
-    <div class="textos_pilares">
-    <h2>Donde?</h2>
-    <p>Los programadores son los nuevos Rockstar</p>
-    <ul>
-      <li>Desarrollar páginas web</li>
-      <li>Aplicaciones móviles</li>
-    </ul>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-      <div class="flecha floating black">
-      <span class="fa fa-caret-down" aria-hidden="true"></span>
+    <div class="small-12 medium-6 large-6 columns">
+      <a href="portafolio/ballons.html" target="_blank">
+      <div id="balloons" class="project">
+        <div class="texts">
+          <h1>Balloons Colombia</h1>
+          <h2>Front-end develop</h2>
+          <p>Tap to see design</p>
+        </div>
+        <!-- <div class="filter"></div> -->
       </div>
+      </a> 
     </div>
-  </div>
-</section>
-<section id="creatividad">
-  <div class="row">
-  <div class="image light">
-    <img src="img/creatividad/titulo.png" alt="creatividad">
-    <hr>
-  </div>
-    <div class="textos_pilares light">
-    <h2>Quien?</h2>
-    <p>“La imaginación es más importante que el conocimiento” <br> Albert Einstein</p>
-    </div>
-    <div class="small-12 medium-12 large-12 columns">
-      <div class="flecha floating black">
-      <span class="fa fa-caret-down" aria-hidden="true"></span>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="art">
-    <div class="row">
       <div class="small-12 medium-6 large-6 columns">
-      <div id="formulario_contacto">
-      <form action="contact.php" method="post">
-      <div class="row">
-      <div class="medium-12 columns">
-      <label>Correo electrónico
-      <input type="email" name="cf_email" required placeholder="">
-      </label>
+      <a href="#" target="_blank">
+      <div id="intexab" class="project">
+        <div class="texts">
+          <h1>Decoraciones Intexab</h1>
+          <h2>Website</h2>
+          <p>Tap tp see design</p>
+        </div>
+        <div class="filter"></div>
       </div>
-      <div class="medium-12 columns">
-      <label>Asunto
-      <input type="text" name="cf_name" required placeholder="">
-      </label>
+      </a> 
+    </div>
+     <div class="small-12 medium-8 large-8 columns">
+      <a href="#" target="_blank">
+      <div id="motosAU" class="project">
+        <div class="texts">
+          <h1>Motos AU</h1>
+          <h2>Proposal Website</h2>
+          <p>Tap to see design</p>
+        </div>
+        <!-- <div class="filter"></div> -->
       </div>
-      <div class="medium-12 columns">
-      <label>
-      Cual es tu mensaje?
-      <textarea name="cf_message" required type="text"  placeholder=""></textarea>
-      </label>
+      </a> 
+    </div>
+     <div class="small-12 medium-4 large-4 columns">
+      <a href="#" target="_blank">
+      <div id="santamaria" class="project">
+        <div class="texts">
+          <h1>Santamaria</h1>
+          <h2>Front-end develop</h2>
+          <p>Tap to see design</p>
+        </div>
+        <div class="filter"></div>
       </div>
-      <div class="small-12 columns">
-      <input class="button" type="submit" name ="submit" value="Enviar" />
-      </div>
-      </div>
-      </form>
-      </div>
-      </div>
-      <div class="small-12 medium-6 large-6 columns"></div>
+      </a> 
+    </div>
     </div>
 </section>
 <!-- Footer -->
 <footer class="footer">
   <div class="row full-width">
-    <div class="small-12 medium-8 large-8 columns">
-      Andres Larrotta Pino 
+    <div class="small-12 medium-12 large-12 columns">
+      <img src="img/andres_larrotta_logo_footer.png" alt="andres larrotta">
+      <h1>Developer and Designer Web</h1>
+      <h2>Multimedia Engineer</h2>
+      <h3>Bogotá - Colombia</h3>
     </div>
-    <div class="small-12 medium-4 large-4 columns">
+    <div class="small-12 medium-12 large-12 columns">
       <div class="redes">
 			<a href="https://www.linkedin.com/in/andres-felipe-larrotta-pino-97772849" target="_blanck"><span class="flaticon-linkedin-logo-button"></span></a>
 			<a href="https://github.com/andreslarrotta" target="_blanck"><span class="flaticon-github-logo"></span></a>
@@ -375,7 +214,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="js/vendor/foundation.js"></script>
 <script src="js/app.js"></script>
 <script src="js/scrollPage.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.5/owl.carousel.min.js'></script>
-<script src="js/carrusel.js"></script>
 </body>
 </html>
